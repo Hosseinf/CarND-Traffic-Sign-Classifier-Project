@@ -50,8 +50,6 @@ I used pickle library to read the data, then using Sklearn library, I splitted t
 * The shape of a traffic sign image is: 32x32x3
 * The number of unique classes/labels in the data set is: 43
 
-#### 2. Include an exploratory visualization of the dataset.
-
 Here is an exploratory visualization of the data set. It is a sample of each class
 
 
@@ -84,8 +82,6 @@ Here is an example of an original image and an augmented image:
 
 The difference between the original data set and the augmented data set is the following ... 
  -->
-
-#### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 I used the LeNet architecture. I used two layers of convolution of the size of 5x5 and three fully connected layers.
 My final model consisted of the following layers:
@@ -144,8 +140,6 @@ Here are five German traffic signs that I found on the web:
 
 Among these 8 images, the second one is hard to classify probably because the part of the sign is not inside the frame.
 
-#### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
-
 Here are the results of the prediction:
 
 | Image			        		|     Prediction	        					| 
@@ -162,8 +156,6 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 7 of the 8 traffic signs, which gives an accuracy of 86%. 
 <!-- This compares favorably to the accuracy on the test set of ... -->
-
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
