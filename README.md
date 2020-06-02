@@ -55,11 +55,11 @@ I used pickle library to read the data, then using Sklearn library, I splitted t
 Here is an exploratory visualization of the data set. It is a sample of each class
 
 
-<img src="images_for_report/sample_pics.PNG" width="800" alt="sample_pics"/> 
+<img src="images_for_report/sample_pics.png" width="800" alt="sample_pics"/> 
 
 Then, I plotted bar chart showing how many data per class are availabe
 
-<img src="images_for_report/bar.PNG" width="800" alt="bar"/> 
+<img src="images_for_report/bar.png" width="800" alt="bar"/> 
 
 ### Design and Test a Model Architecture
 
@@ -68,7 +68,7 @@ As a first step, I decided to use the original color of the images, and then com
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-<img src="images_for_report/gray.PNG" width="800" alt="gray"/> 
+<img src="images_for_report/gray.png" width="800" alt="gray"/> 
 
 Based on my test experiment of the color and grayscale image, the accuracy was better for grayscale image.
 
@@ -140,7 +140,7 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-<img src="images_for_report/example_sets.PNG" width="800" alt="example_sets"/> 
+<img src="images_for_report/example_sets.png" width="800" alt="example_sets"/> 
 
 Among these 8 images, the second one is hard to classify probably because the part of the sign is not inside the frame.
 
