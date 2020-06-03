@@ -109,8 +109,13 @@ number of epochs: 20
 Learning rate = 0.001
 Batch size = 128
 
-I used "AdamOptimizer" for type of optimizer. My final model Validation Accuracy was 0.961.
-First I chose the LeNet architecture for UDACITY course, but the results wasn't good. The accuracy was around 0.7 (underfitting problem). To improve the accuracy, I adjusted the architecture by adjusting the number of features in each layer. 
+I used "AdamOptimizer" for type of optimizer. My final model results were
+
+* training set accuracy of 0.961
+* validation set accuracy of 0.956 
+* test set accuracy of 0.771
+
+First I chose the LeNet architecture for UDACITY course, but the results wasn't good. The accuracy was around 0.7 (underfitting problem). To improve the accuracy, I adjusted the architecture by adjusting the number of features in each layer. I started first by changing the convolution filter size from 5x5 to 3x3, but I didn't see the significant changes in my results. Then I started increasing the number of features in convolution layers. I saw a good change in performance. Afterthat, I played around by the number of nodes in fully connected layer, which it also helps in inproving the results. In addition, I found out increasing the features number in some extent will reduce the performance due to overfitting.
 
 <!-- #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
